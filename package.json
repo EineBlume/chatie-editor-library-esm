@@ -1,0 +1,24 @@
+{
+  "name": "@chatie/editor-library",
+  "version": "0.0.3-test.2",
+  "type": "module",
+  "main": "dist/editor.esm.js",
+  "module": "dist/editor.esm.js",
+  "exports": {
+    ".": {
+      "import": "./dist/editor.esm.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/editor.css"
+  },
+  "types": "dist/index.d.ts",
+  "description": "Chatie Editor Library - Production Build (ESM only)",
+  "license": "PRIVATE",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "axios": ">=0.21.1",
+    "i18next": "*",
+    "react-i18next": ">=11.18.6"
+  }
+}
