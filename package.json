@@ -1,0 +1,16 @@
+{
+  "name": "@chatie/editor-library",
+  "version": "0.0.1",
+  "main": "dist/editor.js",
+  "module": "dist/editor.esm.js",
+  "types": "dist/index.d.ts",
+  "description": "Chatie Editor Library - Production Build",
+  "license": "PRIVATE",
+  "peerDependencies": {
+    "react": "^17.0.2 || ^18.0.0",
+    "react-dom": "^17.0.2 || ^18.0.0",
+    "axios": "^0.21.1",
+    "i18next": "*",
+    "react-i18next": "^11.18.6"
+  }
+}
